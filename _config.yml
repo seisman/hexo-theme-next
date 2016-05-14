@@ -242,7 +242,8 @@ wechat_subscriber:
 
 # MathJax Support
 mathjax:
-  enable: true
+  enable: false
+  per_page: false
   cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
