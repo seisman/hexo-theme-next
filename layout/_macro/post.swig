@@ -121,6 +121,14 @@
               <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>{{ theme.busuanzi_count.page_pv_footer }}
               </span>
           {% endif %}
+
+          {% if post.tags and post.tags.length and not is_index %}
+            <div class="post-tags">
+              {% for tag in post.tags %}
+                <a href="{{ url_for(tag.path) }}" rel="tag">#{{ tag.name }}</a>
+              {% endfor %}
+            </div>
+          {% endif %}
         </div>
       </header>
     {% endif %}
@@ -185,15 +193,6 @@
     </div>
 
     <footer class="post-footer">
-
-      {% if post.tags and post.tags.length and not is_index %}
-        <div class="post-tags">
-          {% for tag in post.tags %}
-            <a href="{{ url_for(tag.path) }}" rel="tag">#{{ tag.name }}</a>
-          {% endfor %}
-        </div>
-      {% endif %}
-
       <div>
         {% if not is_index %}
           {% include 'wechat-subscriber.swig' %}
