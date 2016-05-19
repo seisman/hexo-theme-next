@@ -340,6 +340,13 @@ reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作�
 alipay: /images/alipay.png
 wechatpay: /images/wechatpay.png
 
+# viewraw
+viewraw:
+  enable: true
+  repo: https://github.com/seisman/seisman.info.posts
+  branch: master
+  pdf_url: http://seisman.qiniudn.com/pdfs
+
 
 #! ---------------------------------------------------------------
 #! DO NOT EDIT THE FOLLOWING SETTINGS

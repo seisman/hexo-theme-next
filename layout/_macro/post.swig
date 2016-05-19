@@ -122,6 +122,11 @@
               </span>
           {% endif %}
 
+          {% if not is_index and theme.viewraw.enable %}
+          &nbsp; |&nbsp;
+          {% include "viewraw.swig" %}
+          {% endif %}
+
           {% if post.tags and post.tags.length and not is_index %}
             <div class="post-tags">
               {% for tag in post.tags %}
