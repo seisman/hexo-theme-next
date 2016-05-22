@@ -153,7 +153,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-avatar: /images/avatar.png
+avatar: http://7j1zxm.com1.z0.glb.clouddn.com/images/avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -244,7 +244,8 @@ wechat_subscriber:
 mathjax:
   enable: true
   per_page: true
-  cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  #cdn: //cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+  cdn: //cdn.bootcss.com/mathjax/2.6.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 
 # Swiftype Search API Key
@@ -337,8 +338,8 @@ baidu_push: false
 
 # reward
 reward_comment: 坚持原创技术分享，您的支持将鼓励我继续创作！
-alipay: /images/alipay.png
-wechatpay: /images/wechatpay.png
+alipay: http://7j1zxm.com1.z0.glb.clouddn.com/images/alipay.png
+wechatpay: http://7j1zxm.com1.z0.glb.clouddn.com/images/wechatpay.png
 
 # viewraw
 viewraw:
@@ -370,42 +371,43 @@ vendors:
   _internal: vendors
 
   # Internal version: 2.1.3
-  jquery:
+  jquery: //cdn.bootcss.com/jquery/2.1.3/jquery.min.js
 
   # Internal version: 2.1.5
   # http://fancyapps.com/fancybox/
-  fancybox:
-  fancybox_css:
+  fancybox: //cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.pack.js
+  fancybox_css: //cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css
 
   # Internal version: 1.0.6
   # https://github.com/ftlabs/fastclick
-  fastclick:
+  fastclick: //cdn.bootcss.com/fastclick/1.0.6/fastclick.min.js
 
   # Internal version: 1.9.7
   # https://github.com/tuupola/jquery_lazyload
-  lazyload:
+  lazyload: //cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js
 
   # Internal version: 1.2.1
   # http://VelocityJS.org
-  velocity:
+  velocity: //cdn.bootcss.com/velocity/1.2.1/velocity.min.js
 
   # Internal version: 1.2.1
   # http://VelocityJS.org
-  velocity_ui:
+  velocity_ui: //cdn.bootcss.com/velocity/1.2.1/velocity.ui.min.js
 
   # Internal version: 0.7.9
   # https://faisalman.github.io/ua-parser-js/
-  ua_parser:
+  ua_parser: //cdn.bootcss.com/UAParser.js/0.7.9/ua-parser.min.js
 
   # Internal version: 4.4.0
   # http://fontawesome.io/
-  fontawesome:
+  fontawesome: //cdn.bootcss.com/font-awesome/4.4.0/css/font-awesome.min.css
 
 
 # Assets
-css: css
-js: js
-images: images
+css: http://o7l077v4h.bkt.clouddn.com/css
+js: http://o7l077v4h.bkt.clouddn.com/js
+images: http://7j1zxm.com1.z0.glb.clouddn.com/images
+
 
 # Theme version
 version: 5.0.1
