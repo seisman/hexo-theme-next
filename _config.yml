@@ -252,7 +252,7 @@ mathjax:
 #swiftype_key:
 
 # Baidu Analytics ID
-baidu_analytics: 65542808c7a590c2137aef85e1116ace
+#baidu_analytics: 65542808c7a590c2137aef85e1116ace
 
 # Duoshuo ShortName
 #duoshuo_shortname:
@@ -268,7 +268,7 @@ disqus_shortname: seisman
 
 # Share
 #jiathis:
-add_this_id: ra-57373b619dd56377
+#add_this_id: ra-57373b619dd56377
 
 # Share
 #duoshuo_share: true
