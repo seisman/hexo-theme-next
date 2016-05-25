@@ -123,7 +123,7 @@
           {% endif %}
 
           {% if not is_index and theme.viewraw.enable %}
-          &nbsp; |&nbsp;
+          &nbsp; | &nbsp;
           {% include "viewraw.swig" %}
           {% endif %}
 
